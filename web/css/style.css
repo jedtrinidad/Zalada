@@ -1,0 +1,143 @@
+/**
+    Epoxy CSS Framework
+    2018-2018
+    Author: Jed Cyril Trinidad
+**/
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+.navbar-item{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: lightgrey;
+}
+a.navbar-item:hover{
+    background-color: rgb(255, 255, 255);
+    color: #0033ff
+}
+.navbar-logo{
+    display: block;
+    padding: 15px;
+    width: 115px;
+    height: 20px;
+}
+.brand{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(1, 105, 64);
+}
+.navbar-menu{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #111;
+}
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.has-sidebar{
+    padding-left: 0px;
+    margin-left: 250px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+}
+.button{
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(1, 105, 64);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: grey;
+    cursor: pointer;
+}
+.is-info{
+    background-color: cadetblue;
+    color: white;
+}
+.is-danger{
+    background-color: red;
+}
+.rounded-button{
+    border-radius: 20px;
+}
+.field{
+    padding: 10px;
+}
+.field > label{
+    font-weight: bold;
+}
+
+.textarea{
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+}
+
+.sidebar{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index:1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.sidebar a {
+    padding: 0px 8px 0px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+.sidebar h1{
+    display: block;
+    padding: 6px 8px 6px 16px;
+    color: rgb(1, 105, 64);
+}
+.sidebar h4{
+    display: block;
+    padding: 0px 8px 0px 16px;
+    color: rgb(1, 105, 64);
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 0.5px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.form{
+    width: 50%;
+}
+
+.box{
+    display: block;
+    text-align: center;
+    width: 100px;
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0.5px 0.5px 6px black, 0.5px 2px 6px black;
+    margin: 5px;
+}
